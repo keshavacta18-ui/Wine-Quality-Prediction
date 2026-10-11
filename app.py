@@ -7,7 +7,7 @@ st.set_page_config(page_title="Wine Quality Predictor", page_icon="🍷")
 st.title("Wine Quality Prediction System")
 st.write("Enter the wine's chemical properties to predict its quality.")
 
-model = joblib.load("wine_quality_model.pkl")
+model = joblib.load("wine_quality_model (1).pkl")
 
 features = [
     "fixed acidity", "volatile acidity", "citric acid",
